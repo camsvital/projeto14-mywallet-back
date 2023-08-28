@@ -1,6 +1,6 @@
 import { db } from "../db.js";
 import dayjs from "dayjs";
-import { db } from "mongodb";
+
 
 export async function createTransaction(req, res) {
   const { value, description, type } = req.body;
